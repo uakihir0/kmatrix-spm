@@ -1,0 +1,5 @@
+framework module "kmatrix" {
+    umbrella header "kmatrix.h"
+    export *
+    module * { export * }
+}
